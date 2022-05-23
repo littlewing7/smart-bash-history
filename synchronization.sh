@@ -1,3 +1,4 @@
+#set -x 
 # on every prompt, save new history to dedicated file and recreate full history
 # by reading all files, always keeping history from current session on top.
 __reload_history () {

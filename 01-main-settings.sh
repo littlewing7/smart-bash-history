@@ -18,6 +18,6 @@ export PATH="$PATH:$repo_root"
 
 # load remaining history configuration files (must use full path)
 source $repo_root/backup.sh
-source $repo_root/fuzzy-search.sh
+#source $repo_root/fuzzy-search.sh
 source $repo_root/synchronization.sh
 source $repo_root/filtering.sh
