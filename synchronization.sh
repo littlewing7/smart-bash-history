@@ -25,7 +25,7 @@ __merge_history_file() {
   [ -e "$1" ] && file="$1" || return 0
   echo "Flushing $(basename $file)"
   cat "$file" >> "$HISTFILE"
-  rm "$file"
+  \rm "$file"
 }
 flush_current_session_history() { __merge_history_file "${HISTFILE}.$$"; }
 # run it automatically on bash exit
